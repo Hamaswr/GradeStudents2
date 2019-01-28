@@ -6,11 +6,11 @@ namespace GradeStudents
 {
     public class Grades
     {
-        public List<float> grades2 = new List<float>();
+        public List<float> grades = new List<float>();
 
         public void AddGrade(float grade)
         {
-            grades2.Add(grade); 
+            grades.Add(grade);
         }
     }
 }
